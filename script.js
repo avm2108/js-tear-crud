@@ -41,7 +41,7 @@ function editDate(id) {
 
 //delete existing entries
 function deleteDate(id) {
-    cries = cries.filter(cried => cried.id !== id);
+    entries = entries.filter(cried => cried.id !== id);
     renderDates();
 }
 
